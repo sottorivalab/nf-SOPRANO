@@ -10,7 +10,9 @@ TODO
 
 ## USAGE
 
-TODO
+```
+nextflow run main <path.to.main.nf> --input samplesheet.csv
+```
 
 ## PARAMETERS
 

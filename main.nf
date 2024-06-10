@@ -32,4 +32,6 @@ workflow {
         .dump(tag: 'samples')
     
     SOPRANO_ANNOTATE(sample_ch)
+    
+    SOPRANO_ANNOTATE.out.annotated.view()
 }
